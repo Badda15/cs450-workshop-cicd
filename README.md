@@ -1,4 +1,4 @@
-# CS 450: CI/CD Practice Sandbox (`cs450-workshop-cicd`)
+# CS 450: CI/CD Practice Workshop (`cs450-workshop-cicd`)
 
 Welcome to the Continuous Integration (CI) Workshop! This is a single-package Node.js project designed exclusively to practice configuring GitHub Actions, interpreting logs, and implementing a failure-to-fix validation cycle.
 
