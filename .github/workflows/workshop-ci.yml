@@ -1,6 +1,6 @@
 name: Workshop CI Validation
 
-on:
+"on":
   push:
     branches: [setup-ci]
 
