@@ -6,5 +6,5 @@ test('should correctly calculate total price with tax', () => {
 
 test('should handle a flat 10% tax rate on a 100 dollar item', () => {
   // ERROR: Parameters are reversed below, causing an assertion failure
-  expect(calculateTotal(0.1, 100)).toBe(110);
+  expect(calculateTotal(100, 0.1)).toBe(110);
 });
