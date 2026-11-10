@@ -143,3 +143,9 @@ Do not disable or bypass the scripts to pass the checks. Fix the underlying code
 - A passing pipeline is only as good as the checks it validates. If you don't run lint or test scripts, a green check is meaningless.
 - Always analyze the *first* error in the step log sequence; cascading failures afterwards are typically symptoms, not the root cause.
 - Keep production credentials out of validation runners, and always use explicit minimal scopes (`contents: read`) to maintain strict repo boundaries.
+
+
+
+## CI / CD setup
+The Workflow Checks for unused variables (npm run lint) and if the outputs of the different function/ variables (npm run test) aswell as the formatting is correct.
+It verifys the dependecies and compiles the code. (npm run build)
